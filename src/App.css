@@ -1,0 +1,44 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+}
+
+header {
+  padding-top: 10px;
+  font-size: 34px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+header h3 {
+  font-size: 23px;
+  font-weight: 500;
+  color: #F97F51;
+}
+
+.recipe {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 979px) {
+  .recipe {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  .recipe {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .recipe {
+    grid-template-columns: 1fr;
+  }
+}
+

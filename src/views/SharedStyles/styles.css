@@ -1,0 +1,9 @@
+img {
+    border-radius: 50%;
+    box-shadow: 0.8px 0.8px 0.8px grey;
+}
+
+img:hover {
+    transform: scale(1.03); 
+    cursor: pointer;
+}
